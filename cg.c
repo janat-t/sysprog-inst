@@ -12,6 +12,7 @@ void *ROOT = NULL;
 #define mod 10007
 int cnt[mod];
 
+__attribute__((no_instrument_function))
 void close_bracket() {
     FILE *f = fopen("cg.dot", "a");
     if (f != NULL) {
